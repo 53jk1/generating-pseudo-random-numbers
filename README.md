@@ -7,7 +7,5 @@ lcgGeneratorFactors.cpp
 lcgGeneratorTest.cpp
 > This program checks, in turn, whether the LCG generator with given coefficients m, a and c generates m numbers in the range from 0 to m - 1. At the input, the program asks for subsequent coefficients, then checks the generator and prints the number of generated values and the word OK if this the number is equal to m. The program ends after specifying 0. for m. The program uses a dynamic table.
 
-pseudo-randomNumbersAtXY.cpp
->The program reads from the first line three numbers x, y and n. The numbers x and y specify the integer in which pseudo-random numbers are to be generated. The number n defines how many pseudo-random numbers should be generated. As the LCG generator, we use the generator proposed by prof. Donald Knuth with the following parameters:
->LCG (34359738368, 3141592653, 2718281829, Xo)
->To perform multiplication and addition, we use the procedures for multiplying and adding modulo. Thanks to them, bills will not exceed the range of 64-bit numbers.
+generatingPseudo-randomNumbers.*
+> The simplest program by which the user can generate pseudo-random numbers from the range of his choice. The algorithms are written in three programming languages.
