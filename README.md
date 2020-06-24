@@ -3,3 +3,6 @@ GeneratorLCG.cpp
 
 lcgGeneratorFactors.cpp
 >Simple program calculating the coefficients of the additive LCG generator based on the maximum pseudo-random number X max, which should be given at the input in the first line. In the next lines, the program prints the calculated coefficients m, a and c. The program uses a built-in pseudo-random number generator.
+
+lcgGeneratorTest.cpp
+> This program checks, in turn, whether the LCG generator with given coefficients m, a and c generates m numbers in the range from 0 to m - 1. At the input, the program asks for subsequent coefficients, then checks the generator and prints the number of generated values and the word OK if this the number is equal to m. The program ends after specifying 0. for m. The program uses a dynamic table.
